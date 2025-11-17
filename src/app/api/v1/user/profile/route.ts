@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase, supabaseAdmin } from '../../../../../../lib/supabase'
 import { UserManager, UsageTracker } from '../../../../../../lib/database'
-import { SubscriptionTier } from '../../../../../../../types/database'
+import { SubscriptionTier } from '../../../../../../types/database'
 
 // Authentication middleware
 async function authenticateUser(request: NextRequest) {

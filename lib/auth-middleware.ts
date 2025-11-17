@@ -2,7 +2,7 @@ import { NextRequest } from 'next/server'
 import { supabase } from './supabase'
 import { UserManager } from './database'
 import { User as AuthUser } from '@supabase/supabase-js'
-import { User as DatabaseUser } from '../../types/database'
+import { User as DatabaseUser } from '../types/database'
 
 export interface AuthenticatedUser {
   auth: AuthUser

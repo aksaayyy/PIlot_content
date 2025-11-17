@@ -12,7 +12,7 @@ import {
   QualityPreset, 
   EnhancementLevel, 
   PlatformTarget 
-} from '../../types/database'
+} from '../types/database'
 import { supabaseAdmin } from './supabase'
 
 export interface VideoJobCreateData {

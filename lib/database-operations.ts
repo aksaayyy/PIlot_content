@@ -18,7 +18,7 @@ import {
   UsageTracking,
   JobStatus,
   TeamRole 
-} from '../../types/database'
+} from '../types/database'
 
 // Base database operations class
 export abstract class BaseRepository {

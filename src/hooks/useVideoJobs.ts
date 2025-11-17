@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import { VideoJob } from '../../../types/database'
+import { VideoJob } from '../../types/database'
 import { useAuth } from './useAuth'
 import { supabase } from '../../lib/supabase'
 

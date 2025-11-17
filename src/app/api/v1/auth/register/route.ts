@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '../../../../../../lib/supabase'
 import { UserManager } from '../../../../../../lib/database'
-import { SubscriptionTier } from '../../../../../../../types/database'
+import { SubscriptionTier } from '../../../../../../types/database'
 
 export async function POST(request: NextRequest) {
   try {
